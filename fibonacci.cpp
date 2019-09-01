@@ -32,11 +32,11 @@ vector<int> fibonacciFind(vector<int> fibonacci, int maxNum){
 	switch (maxNum)
 	{
 	case 2:
-		fibonacci.push_back(1);
+		fibonacci.push_back(third);
 	case 1:
-		fibonacci.insert(fibonacci.begin(),1);
+		fibonacci.insert(fibonacci.begin(),second);
 	case 0:
-		fibonacci.insert(fibonacci.begin(),0);
+		fibonacci.insert(fibonacci.begin(),first);
 	default:
 		break;
 	}

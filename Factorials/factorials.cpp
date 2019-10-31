@@ -33,6 +33,6 @@ void keepTakingInputsFromUser(){
         factorial = findFactorialTillNumber(numberAsInt);
         std::cout<<"The factorial of "<<numberAsInt<<" is "<<factorial<<endl;
     }while(true);
-    
+//Added comment by Arya Vindoan
 }
 
